@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+.card_style {
+  @apply w-[350px] h-[364px] flex flex-col items-center justify-between;
+}
