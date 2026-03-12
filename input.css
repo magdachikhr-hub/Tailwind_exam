@@ -7,5 +7,5 @@
 }
 
 .card_style {
-  @apply w-[350px] h-[364px] flex flex-col items-center justify-between;
+  @apply w-[346px] h-91 flex flex-col items-center justify-between;
 }
