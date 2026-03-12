@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,4 +9,8 @@
 
 .card_style {
   @apply w-[346px] h-91 flex flex-col items-center justify-between;
+}
+
+.h1_font {
+  font-family: "League Spartan", sans-serif;
 }

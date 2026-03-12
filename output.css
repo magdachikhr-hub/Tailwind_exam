@@ -202,9 +202,6 @@
   .h-80 {
     height: calc(var(--spacing) * 80);
   }
-  .h-\[56px\] {
-    height: 56px;
-  }
   .h-\[475px\] {
     height: 475px;
   }
@@ -255,9 +252,6 @@
   }
   .gap-\[42px\] {
     gap: 42px;
-  }
-  .rounded-\[8px\] {
-    border-radius: 8px;
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
@@ -512,6 +506,7 @@
   }
 }
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 * {
   box-sizing: border-box;
   font-family: "Jost", sans-serif;
@@ -523,6 +518,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+.h1_font {
+  font-family: "League Spartan", sans-serif;
 }
 @property --tw-rotate-x {
   syntax: "*";
